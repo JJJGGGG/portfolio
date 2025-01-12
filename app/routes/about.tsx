@@ -7,6 +7,6 @@ export function meta({}: Route.MetaArgs) {
   ];
 }
 
-export default function Home() {
-  return <>A</>;
+export default function About() {
+  return <>B</>;
 }
