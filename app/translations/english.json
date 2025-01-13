@@ -1,6 +1,11 @@
 {
   "translation": {
     "Home": "Home",
-    "About": "About"
+    "Projects": "Projects",
+    "My Projects": "My Projects",
+    "A client to play games of guess who with anime characters.": "A client to play games of guess who with anime characters. It features React+TS for the frontend, using React Router for navigation and Tailwind for styling. For the backend, it features Express as the main framework, and uses Prisma as an ORM and socket.io as websocket provider.",
+    "Website": "Website",
+    "A fully local PWA to keep track of incomes and spendings.": "A fully local PWA to keep track of incomes and spendings. It features Sveltekit as the frontend framework, uses the browser PWA API to allow the installation of the app and uses indexedDB to store locally all of the user's information.",
+    "About Me": "About Me"
   }
 }
