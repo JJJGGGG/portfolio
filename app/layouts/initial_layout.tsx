@@ -23,8 +23,8 @@ export default function ProjectLayout() {
               </div>
               <div className="flex gap-12 items-center">
                   <StyledNavLink to="/" text={t("Home")}></StyledNavLink>
-                  <StyledNavLink to="/projects" text={t("Projects")}></StyledNavLink>
                   <StyledNavLink to="/about" text={t("About Me")}></StyledNavLink>
+                  <StyledNavLink to="/projects" text={t("Projects")}></StyledNavLink>
               </div>
               <div className="flex ml-auto">
                   <div className="flex items-center px-2 py-1 rounded">
@@ -44,7 +44,7 @@ export default function ProjectLayout() {
               </div>
           </div>
         <main>
-          <div className="px-32 py-8">
+          <div className="">
               <Outlet />
           </div>
         </main>
