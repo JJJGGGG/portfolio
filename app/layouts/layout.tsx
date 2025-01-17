@@ -18,7 +18,7 @@ export default function ProjectLayout() {
     <div>
         <div className="px-32 py-4 flex shadow border-b border-b-gray">
             <div className="mr-12 flex gap-4 items-center">
-                <img src="/portrait.jpg" className="w-32 rounded" alt="no-img"/>
+                {/* <img src="/portrait.jpg" className="w-32 rounded" alt="no-img"/> */}
                 <div className="text-xl select-none">Julián García G.</div>
             </div>
             <div className="flex gap-12 items-center">
